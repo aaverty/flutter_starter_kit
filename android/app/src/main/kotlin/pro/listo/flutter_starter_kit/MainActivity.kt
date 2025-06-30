@@ -1,4 +1,4 @@
-package pro.listo.flutter_starter_kit
+package pro.daveo.predixball
 
 import io.flutter.embedding.android.FlutterActivity
 

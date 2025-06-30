@@ -30,7 +30,7 @@ class AppRouter {
             routes: [
               transitionGoRoute(
                 path: '/',
-                builder: (context, state) => Center(child: const Text("En construction")), // Route racine, les autres seront ajoutées par injection de dépendance
+                builder: (context, state) => Scaffold(appBar: AppBar(title: Text("Hello"), backgroundColor: Colors.blue,), body: Center(child: const Text("En construction"))), // Route racine, les autres seront ajoutées par injection de dépendance
               )
             ],
           )

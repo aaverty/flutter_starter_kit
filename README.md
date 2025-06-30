@@ -1,15 +1,5 @@
 # Starter Kit Flutter
 
-Ce projet va vous permettre de mettre en route un projet préconfiguré en quelques minutes.
-
-Cet outil est rendu disponible à la suite de [l'article Medium "Architecture Clean et Modulaire avec Flutter : De la Structure aux Tests Gherkin"](https://medium.com/@benotfontaine/architecture-clean-et-modulaire-avec-flutter-de-la-structure-aux-tests-gherkin-879a37c0c2a5)
-
---------
-
-## Créer un nouveau projet à partir du starter kit
-
-Première chose à faire: un fork. Une fois celui-ci fait, vous pouvez le cloner.
-
 ### Organisation des Flavors
 Pour organiser les flavors, il vous suffit de modifier le fichier `flavorizr.yaml`
 ```yaml
@@ -18,56 +8,56 @@ flavors:
     app:
       name: "Production"
     android:
-      applicationId: "pro.listo.flutter_starter_kit"
+      applicationId: "pro.daveo.predixball"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "pro.daveo.predixball"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "pro.daveo.predixball"
   preprod:
     app:
       name: "Preprod"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.preprod"
+      applicationId: "pro.daveo.predixball.preprod"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "pro.daveo.predixball.preprod"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "pro.daveo.predixball.preprod"
   recette:
     app:
       name: "Recette"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.recette"
+      applicationId: "pro.daveo.predixball.recette"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "pro.daveo.predixball.recette"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "pro.daveo.predixball.recette"
   integration:
     app:
       name: "Integration"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.integration"
+      applicationId: "pro.daveo.predixball.integration"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "pro.daveo.predixball.integration"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "pro.daveo.predixball.integration"
   dev:
     app:
       name: "Dev"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.dev"
+      applicationId: "pro.daveo.predixball.dev"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "pro.daveo.predixball.dev"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "pro.daveo.predixball.dev"
   test:
     app:
       name: "Test"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.test"
+      applicationId: "pro.daveo.predixball.test"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "pro.daveo.predixball.test"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "pro.daveo.predixball.test"
 
 ide: idea
 ```
@@ -175,7 +165,6 @@ Par BLoC, voici comment enregistrer les fichiers :
     |_ login_module.dart (Module qui injecte les routes de l'écran dans le router)
 ```
 
-Pour en savoir plus, merci de vous référer à la documentation Listo [Flutter Avancé](https://www.notion.so/listopaye/Flutter-avanc-e-0891213511e14e8d86380ea41278605b?pvs=4).
 
 Enfin, le seul élément à être injecté est l'interactor. Il est injecté en tant que Singleton et utilisé via le `create` de `BlocProvider`.
 

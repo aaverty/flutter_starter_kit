@@ -3,55 +3,55 @@ flavors:
     app:
       name: "Production"
     android:
-      applicationId: "pro.listo.flutter_starter_kit"
+      applicationId: "pro.daveo.predixball"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "pro.daveo.predixball"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "pro.daveo.predixball"
   preprod:
     app:
       name: "Preprod"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.preprod"
+      applicationId: "pro.daveo.predixball.preprod"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "pro.daveo.predixball.preprod"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "pro.daveo.predixball.preprod"
   recette:
     app:
       name: "Recette"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.recette"
+      applicationId: "pro.daveo.predixball.recette"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "pro.daveo.predixball.recette"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "pro.daveo.predixball.recette"
   integration:
     app:
       name: "Integration"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.integration"
+      applicationId: "pro.daveo.predixball.integration"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "pro.daveo.predixball.integration"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "pro.daveo.predixball.integration"
   dev:
     app:
       name: "Dev"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.dev"
+      applicationId: "pro.daveo.predixball.dev"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "pro.daveo.predixball.dev"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "pro.daveo.predixball.dev"
   test:
     app:
       name: "Test"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.test"
+      applicationId: "pro.daveo.predixball.test"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "pro.daveo.predixball.test"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "pro.daveo.predixball.test"
 
 ide: idea

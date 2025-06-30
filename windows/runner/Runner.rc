@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "pro.listo" "\0"
-            VALUE "FileDescription", "flutter_starter_kit" "\0"
+            VALUE "CompanyName", "pro.daveo" "\0"
+            VALUE "FileDescription", "predixball" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_starter_kit" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 pro.listo. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_starter_kit.exe" "\0"
-            VALUE "ProductName", "flutter_starter_kit" "\0"
+            VALUE "InternalName", "predixball" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 pro.daveo. All rights reserved." "\0"
+            VALUE "OriginalFilename", "predixball.exe" "\0"
+            VALUE "ProductName", "predixball" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

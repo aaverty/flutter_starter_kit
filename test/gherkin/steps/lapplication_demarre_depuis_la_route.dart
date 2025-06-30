@@ -4,10 +4,10 @@ import 'package:dio_mocked_responses/dio_mocked_responses.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_starter_kit/flavors.dart';
-import 'package:flutter_starter_kit/injection.dart';
-import 'package:flutter_starter_kit/ui/app.dart';
-import 'package:flutter_starter_kit/ui/router.dart';
+import 'package:predixball/flavors.dart';
+import 'package:predixball/injection.dart';
+import 'package:predixball/ui/app.dart';
+import 'package:predixball/ui/router.dart';
 
 /// Usage: L'application démarre depuis la route {'/'}
 Future<void> lapplicationDemarreDepuisLaRoute(

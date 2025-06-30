@@ -1,9 +1,9 @@
 import 'package:dio_mocked_responses/dio_mocked_responses.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_starter_kit/flavors.dart';
-import 'package:flutter_starter_kit/injection.dart';
-import 'package:flutter_starter_kit/ui/ui_module.dart';
+import 'package:predixball/flavors.dart';
+import 'package:predixball/injection.dart';
+import 'package:predixball/ui/ui_module.dart';
 
 Future<void> jaiLanceLapplicationAvecSucces(WidgetTester tester) async {
   MockInterceptor.clearHistory();
